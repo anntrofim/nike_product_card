@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Nike Product Card</title>
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400" rel="stylesheet">
+</head>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<body>
+	<div class="nike">
+
+		<header class="header">
+			<img class="header__logo" src="images/logo.png">
+			<nav class="header__nav">
+				<a class="header__ref" href="#">Lifestyle</a>
+				<a class="header__ref" href="#">Running</a>
+				<a class="header__ref" href="#">Football</a>
+				<a class="header__ref" href="#">Skateboarding</a>
+			</nav>
+			<img class="header__burger" src="images/btn_menu.png">
+		</header>
+
+		<div class="card">
+
+			<div class="card__product">
+				<h1 class="card__model">Huarache</h1>
+				<img class="card__photo" src="images/product.png">
+				<button class="card__btn-add"></button>
+				<div class="card__views">
+					<img class="card__view" src="images/view1.png">
+					<img class="card__view" src="images/view2.png">
+					<img class="card__view" src="images/view3.png">
+				</div>
+			</div>
+
+			<div class="card__info">
+				<div class="card__new">New</div>
+				<h3 class="card__title">The <span class="card__title--blue">running</span> has just begun</h3>
+				<h6 class="card__description">Huarache</h6>
+				<div class="card__rate">
+					<img class="card__star" src="images/star.png">
+					<img class="card__star" src="images/star.png">
+					<img class="card__star" src="images/star.png">
+					<img class="card__star" src="images/star.png">
+					<img class="card__star" src="images/star.png">
+				</div>
+					<p class="card__price">$ 200</p>
+					<div class="card__size">
+						<h6 class="card__size-title">Size</h6>
+						<div class="card__radois">
+							<input id="card__radio-7" class="card__radio" type="radio" name="size" value="7">
+							<input id="card__radio-8" class="card__radio" type="radio" name="size" value="8">
+							<input id="card__radio-9" class="card__radio" type="radio" name="size" value="9">
+							<input id="card__radio-10" class="card__radio" type="radio" name="size" value="10">
+							<input id="card__radio-11" class="card__radio" type="radio" name="size" value="11">
+						</div>
+						<div class="card__labels">
+							<label for="card__radio-7" class="card__label">7</label>
+							<label for="card__radio-8" class="card__label">8</label>
+							<label for="card__radio-9" class="card__label">9</label>
+							<label for="card__radio-10" class="card__label">10</label>
+							<label for="card__radio-11" class="card__label card__labelx">11</label>
+						</div>
+									</div>
+				<input class="card__add" type="submit" name="add-to-cart" value="Add to cart">
+				<input class="card__wish" type="submit" name="wishlist" value="Wishlist">
+			</div>
+
+			<button class="card__btn-close"></button>
+		</div>
+
+	</div>
+</body>
+</html>
