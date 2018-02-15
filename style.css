@@ -178,7 +178,6 @@ html {
 .card__radio {
 	visibility: hidden;
 	margin: 0 .6rem;
-	/*outline: 1px solid black;*/
 }
 
 .card__labels {
